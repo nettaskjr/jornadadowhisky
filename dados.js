@@ -17,6 +17,7 @@ nome: "Dewar's 12 Anos",
 nome: "Wild Turkey 101",
 nome: "Royal Salute 21 Anos",
 nome: "Talisker 10 Anos", 
+nome: "White Horse",
 */
 
 let dados = [
@@ -289,6 +290,21 @@ let dados = [
         link: "https://www.talisker.com/",
         degustacao: "https://www.instagram.com/reel/Cw7tZgzs4mN/", 
         tags: "single malt escoces torfado fumaça especiarias"
+    }
+    {
+        nome: "White Horse",
+        descricao: "Um blended scotch whisky conhecido por sua suavidade e equilíbrio, com uma mistura de mais de 35 maltes.",
+        classificacao: "Blended Scotch Whisky",
+        regiao: "Escócia",
+        idade: "Variação", // A idade não é especificada para blends
+        prova: "40%",
+        finish: "Nenhum",
+        notasDeDegustacao: "Frutas cítricas, mel, especiarias, final suave",
+        preco: "Médio",
+        disponibilidade: "Alta",
+        link: "https://www.whitehorse.com/",
+        degustacao: "https://www.youtube.com/watch/v=... ", // Substitua por um link de degustação
+        tags: "blended scotch whisky suave equilibrado frutas cítricas mel especiarias"
     }
 ];
 

@@ -290,7 +290,7 @@ let dados = [
         link: "https://www.talisker.com/",
         degustacao: "https://www.instagram.com/reel/Cw7tZgzs4mN/", 
         tags: "single malt escoces torfado fumaça especiarias"
-    }
+    },
     {
         nome: "White Horse",
         descricao: "Um blended scotch whisky conhecido por sua suavidade e equilíbrio, com uma mistura de mais de 35 maltes.",

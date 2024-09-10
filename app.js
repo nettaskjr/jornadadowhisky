@@ -24,8 +24,6 @@ function pesquisar() {
     let notasDeDegustacao = "";
     let preco = "";
     let disponibilidade = ""; 
-    let link = ""; 
-    let degustacao = ""; 
     let tags = ""; 
 
     let resultados = "";
@@ -46,7 +44,7 @@ function pesquisar() {
         tags= dado.tags.toLowerCase(); 
 
         // Verifica se o termo de pesquisa está presente no nome, descrição ou tags
-        if (nome.includes(campoPesquisa) || descricao.includes(campoPesquisa) || classificacao.includes(campoPesquisa) || idade.includes(campoPesquisa) || tags.includes(campoPesquisa))
+        if (nome.includes(campoPesquisa) || descricao.includes(campoPesquisa) || classificacao.includes(campoPesquisa) || regiao.includes(campoPesquisa) || idade.includes(campoPesquisa) || prova.includes(campoPesquisa) || finish.includes(campoPesquisa) || notasDeDegustacao.includes(campoPesquisa) || preco.includes(campoPesquisa) || disponibilidade.includes(campoPesquisa) || tags.includes(campoPesquisa))
             {
             // Constrói o HTML para cada resultado encontrado
             resultados += `

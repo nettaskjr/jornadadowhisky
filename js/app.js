@@ -1,3 +1,15 @@
+// quando executar o "Enter" aciona o botao
+document.getElementById("campo-pesquisa").addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        document.getElementById("btnPesquisar").click();
+    }
+});
+
+function cancelar(){
+    // limpa o campo para uma nova pesquisa
+    document.getElementById('campo-pesquisa').value = '';
+}
+
 function pesquisar() {
 
     // Obtém a seção onde os resultados serão exibidos
